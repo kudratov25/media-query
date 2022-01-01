@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.stroke{
+    border: 2px solid rgb(47, 79, 79);
+    padding: 25px ;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+/* for desktops */
+@media( min-width: 1024px) {
+    .stroke{
+        width: 25%;
+        font-size: large;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 900;
+    }
+}
+/* for tablet */
+@media (min-width:768px) and (max-width:1023px) {
+    .stroke{
+        width: 50%;
+    }
+}
+/* for mobile phones */
+@media (max-width:767px){
+    .stroke{
+        width: 100%;
+    }
+}
